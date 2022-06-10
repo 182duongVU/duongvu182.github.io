@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.sec1{
+	text-align: center;
+	padding: 30px;
+	height: 100px;
+}
+.sec1 p{
+	padding: 20px;
+}
+.sec2{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.card{
+	background-color: #F6F6F6;
+	width: 26%;
+	padding: 24px;
+	height: 200px;
+	border-radius: 10px;
+}
+.card h1{
+	padding: 20px;
+}
+.card:hover{
+	background-color: orangered;
+	color: white;
+}
+.sec1 h1:hover{
+	font-size: 100px;
+}
+.sec4{
+	background-color: #FFFAF8;
+	height: 800px;
+	text-align: center;
+	padding: 100px 135px;
+}
+.bigcardB{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 4px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.cardB{
+	width: 25%;
+	background-color: #FFFFFF;
+	padding: 22px;
+	border-radius: 14px;
+}
+.smallcarbB{
+	display: flex;
+	justify-content: space-between;
+}
+.smallcarbB input{
+	border-radius: 4px;
+	padding:5px 14px;
+	background-color: transparent;
+	border: 0.5px solid #707070;
+}
+.cardB img{
+	width: 100%;
+}
